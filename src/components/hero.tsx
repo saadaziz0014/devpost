@@ -1,11 +1,5 @@
-import {
-  FaBars,
-  FaGlobeAmericas,
-  FaLock,
-  FaRegNewspaper,
-} from "react-icons/fa";
+import { FaGlobeAmericas, FaLock, FaRegNewspaper } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { GoDash } from "react-icons/go";
 import { ImNewTab } from "react-icons/im";
 import { IoIosArrowForward, IoIosFlag } from "react-icons/io";
 import { IoBarChart } from "react-icons/io5";

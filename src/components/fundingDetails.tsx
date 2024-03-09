@@ -1,5 +1,5 @@
-import { FaLinkedin, FaLock, FaPen } from "react-icons/fa";
-import { FaBoltLightning, FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
+import { FaLock, FaPen } from "react-icons/fa";
+import { FaBoltLightning } from "react-icons/fa6";
 import { IoBarChart } from "react-icons/io5";
 
 export default function FundingDetail() {

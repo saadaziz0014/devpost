@@ -7,7 +7,7 @@ export default function Header() {
         <div className="col-span-4 p-3">
           <div className="flex justify-between relative">
             <h1 className="text-white font-roboto text-3xl">crunchbase</h1>
-            <IoIosSearch className="absolute left-44 top-3" size={20} />
+            <IoIosSearch className="absolute left-40 top-3" size={20} />
             <input
               type="text"
               placeholder="Search Crunchbase"

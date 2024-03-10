@@ -10,9 +10,8 @@ export default function Hero() {
   return (
     <>
       <div className="bg-white">
-        <div className="grid grid-cols-12 py-6">
-          <div className="col-span-2"></div>
-          <div className="col-span-3 py-4">
+        <div className="grid grid-cols-12 py-6 ml-8">
+          <div className="col-span-4 py-4">
             <div className="flex flex-col gap-3">
               <h1 className="font-roboto text-3xl py-2">About</h1>
               <p>Software Platform and Community for world's Hackathon</p>
@@ -45,20 +44,20 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="col-span-3 border-l-4 py-4">
+          <div className="col-span-4 border-l-4 py-4 px-3">
             <div className="flex flex-col gap-3 px-2">
               <h1 className="font-roboto text-3xl py-2">Highlights</h1>
               <div className="flex flex-col gap-3">
                 <div className="flex flex-col border-4 shadow-inherit p-2">
                   <div className="flex items-center gap-1">
-                    <FaLock />
+                    <FaLock color="#146aff" />
                     <h2 className="text-md">Total Funding</h2>
                   </div>
                   <div className="flex justify-between">
                     <h2 className="ml-4 text-md">Amount</h2>
                     <IoIosArrowForward />
                   </div>
-                  <h2 className="text-blue-800 text-lg">Unlock for Free</h2>
+                  <h2 className="text-[#146aff] text-lg">Unlock for Free</h2>
                 </div>
                 <div className="flex flex-col border-4 shadow-inherit p-2">
                   <h2 className="text-md">Employee</h2>
@@ -66,7 +65,7 @@ export default function Hero() {
                     <h2 className="text-md">Profiles</h2>
                     <IoIosArrowForward />
                   </div>
-                  <h2 className="text-blue-800 text-lg">1</h2>
+                  <h2 className="text-[#146aff] text-xl">1</h2>
                 </div>
                 <div className="flex flex-col border-4 shadow-inherit p-2">
                   <h2 className="text-md">Similar</h2>
@@ -74,12 +73,12 @@ export default function Hero() {
                     <h2 className="text-md">Companies</h2>
                     <IoIosArrowForward />
                   </div>
-                  <h2 className="text-blue-800 text-lg">5</h2>
+                  <h2 className="text-[#146aff] text-xl">5</h2>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-span-3 border-l-4 py-4">
+          <div className="col-span-3 border-l-4 py-4 px-3">
             <div className="flex flex-col gap-3 px-2">
               <h1 className="font-roboto text-3xl py-2">
                 Recent News & Activity
@@ -93,11 +92,13 @@ export default function Hero() {
                 </div>
               </div>
               <div className="border-b-2">
-                <p className="font-light inline">hackernoon.com - </p>
                 <a href="#">
-                  <h2 className="inline py-2">
-                    https://hackernoon.com/build-a-blockchain-application-for-the-hackonlisk-online-hackathon-i87536cn
-                  </h2>
+                  <p className="font-light inline">
+                    hackernoon.com -{" "}
+                    <strong className="text-[#183444] inline">
+                      https://hackernoon.com/build-a-blockchain-application-for-the-hackonlisk-online-hackathon-i87536cn
+                    </strong>
+                  </p>
                 </a>
               </div>
               <div className="flex flex-col">
@@ -109,11 +110,13 @@ export default function Hero() {
                 </div>
               </div>
               <div className="border-b-2">
-                <p className="font-light inline">Voicebot.ai - </p>
                 <a href="#">
-                  <h2 className="inline">
-                    https://voicebot.ai/2020/10/07/amazon-selects-10000-alexa-conversations-skills-challenge-finalists/
-                  </h2>
+                  <p className="font-light inline">
+                    hackernoon.com -{" "}
+                    <strong className="text-[#183444] inline">
+                      https://voicebot.ai/2020/10/07/amazon-selects-10000-alexa-conversations-skills-challenge-finalists/
+                    </strong>
+                  </p>
                 </a>
               </div>
               <div className="flex flex-col">
@@ -125,11 +128,13 @@ export default function Hero() {
                 </div>
               </div>
               <div>
-                <p className="font-light inline">Mobile Syrup - </p>
                 <a href="#">
-                  <h2 className="inline">
-                    https://mobilesyrup.com/2018/09/10/cannabis-hackathon-canada-history/
-                  </h2>
+                  <p className="font-light inline">
+                    hackernoon.com -{" "}
+                    <strong className="text-[#183444] inline">
+                      https://mobilesyrup.com/2018/09/10/cannabis-hackathon-canada-history/
+                    </strong>
+                  </p>
                 </a>
               </div>
               <div className="flex justify-center">

@@ -4,9 +4,8 @@ import { FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
 export default function Detail() {
   return (
     <>
-      <div className="grid grid-cols-12">
-        <div className="col-span-2"></div>
-        <div className="col-span-5 bg-white my-5 p-3">
+      <div className="grid grid-cols-12 ml-8">
+        <div className="col-span-6 bg-white my-5 p-3">
           <div className="flex flex-col gap-3 border-b-2 pb-5">
             <div className="flex justify-between items-center">
               <h1 className="font-roboto text-2xl">Details</h1>

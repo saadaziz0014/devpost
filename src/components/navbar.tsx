@@ -7,29 +7,27 @@ export default function Navbar() {
   const location = useLocation();
   return (
     <>
-      <div className="grid grid-cols-12 my-8">
-        <div className="col-span-2"></div>
+      <div className="grid grid-cols-12 my-8 ml-8">
         <div className="col-span-2">
-          <img src={logo} />
+          <img src={logo} className="relative top-12 shadow-inherit border-2" />
         </div>
         <div className="col-span-7">
           <div className="flex flex-col gap-8">
-            <div className="flex items-center gap-2">
-              <GoOrganization />
-              <h6 className="font-extralight">ORGANIZATION</h6>
-            </div>
-            <div>
-              <div className="flex justify-start">
+            <div className="flex gap-[64%] items-center mt-14">
+              <div>
+                <div className="flex items-center gap-2">
+                  <GoOrganization />
+                  <h6 className="font-extralight">ORGANIZATION</h6>
+                </div>
                 <h1 className="font-roboto text-4xl">Devpost</h1>
               </div>
-              <div className="flex justify-end items-center">
-                <div className="relative">
-                  <CiCirclePlus className="absolute text-white left-1 top-2" />
-                  <button className="bg-[#146AFF] text-white font-roboto py-1 px-6">
-                    Save
-                  </button>
-                </div>
+              <div className="relative">
+                <CiCirclePlus className="absolute text-white left-1 top-2" />
+                <button className="bg-[#146AFF] text-white font-roboto py-1 px-6">
+                  Save
+                </button>
               </div>
+              <div className="flex justify-end items-center"></div>
             </div>
             <div className="flex items-center justify-between absolute top-64">
               <Link to="/">

@@ -5,8 +5,7 @@ import { IoBarChart } from "react-icons/io5";
 export default function FundingDetail() {
   return (
     <>
-      <div className="grid grid-cols-12">
-        <div className="col-span-2"></div>
+      <div className="grid grid-cols-12 ml-12">
         <div className="col-span-5 bg-white my-5 p-3">
           <div className="flex flex-col gap-3 pb-5">
             <div className="flex justify-between items-center">
@@ -24,7 +23,7 @@ export default function FundingDetail() {
                   <FaLock />
                   <h1>Total Funding Amount</h1>
                 </div>
-                <h1 className="font-roboto text-blue-800 text-xl">
+                <h1 className="font-roboto text-[#1C6FFF] text-xl">
                   Unlock for free
                 </h1>
               </div>
@@ -44,7 +43,7 @@ export default function FundingDetail() {
               <div className="grid grid-cols-2">
                 <div className="flex justify-start">
                   <div className="flex gap-1">
-                    <IoBarChart color="blue" size={24} />
+                    <IoBarChart color="#1C6FFF" size={24} />
                     <h1 className="font-roboto">
                       Which funding types raised the most money?
                     </h1>
@@ -62,7 +61,7 @@ export default function FundingDetail() {
               <div className="grid grid-cols-2">
                 <div className="flex justify-start">
                   <div className="flex gap-1">
-                    <IoBarChart color="blue" size={24} />
+                    <IoBarChart color="#1C6FFF" size={24} />
                     <h1 className="font-roboto">
                       How much funding has this organization raised over time?
                     </h1>

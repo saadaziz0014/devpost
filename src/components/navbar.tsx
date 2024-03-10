@@ -11,6 +11,7 @@ export default function Navbar() {
         <div className="col-span-2">
           <img src={logo} className="relative top-12 shadow-inherit border-2" />
         </div>
+        <div className="col-span-1"></div>
         <div className="col-span-7">
           <div className="flex flex-col gap-8">
             <div className="flex gap-[64%] items-center mt-14">

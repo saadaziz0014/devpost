@@ -7,7 +7,7 @@ export default function Header() {
         <div className="col-span-4 p-3">
           <div className="flex gap-3 relative">
             <h1 className="text-white font-roboto text-3xl">crunchbase</h1>
-            <IoIosSearch className="absolute left-[42%] top-[13%]" size={28} />
+            <IoIosSearch className="absolute left-[45%] top-[13%]" size={28} />
             <input
               type="text"
               placeholder="Search Crunchbase"
